@@ -1,0 +1,16 @@
+{
+  "name": "es6-snippets",
+  "version": "0.1.0",
+  "description": "ES6 code snippets for Atom",
+  "keywords": [
+    "ES6",
+    "Javascript",
+    "snippets"
+  ],
+  "repository": "https://github.com/intissarMez/es6-snippets",
+  "license": "See license in LICENSE.md",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}
