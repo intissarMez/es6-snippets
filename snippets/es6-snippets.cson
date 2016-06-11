@@ -54,8 +54,8 @@
     'prefix': 'set'
     'body': 'set ${1:prop}(${2:value}) {\n\t\n}'
 
-  'arrowNamedFunction':
-    'prefix': 'arrn'
+  'namedFunction':
+    'prefix': 'nfn'
     'body': 'const ${1:functionName} = (${2:params}) => {\n\t\n}'
 
   'arrowFunctionOneParam':
