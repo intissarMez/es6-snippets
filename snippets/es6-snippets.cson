@@ -11,26 +11,24 @@
     'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
   'importMember':
-   'prefix': 'impm'
-   'body': 'import {${1:member}} from ${2:"module-name"};'
-   'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
+    'prefix': 'impm'
+    'body': 'import {${1:member}} from ${2:"module-name"};'
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
   'importMemberAsAlias':
-   'prefix': 'impmas'
-   'body': 'import {${1:member} as ${2:alias}} from ${3:"module-name"};'
-   'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
+    'prefix': 'impmas'
+    'body': 'import {${1:member} as ${2:alias}} from ${3:"module-name"};'
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
-   'importAll':
-     'prefix': 'imp*'
-     'body': 'import * as ${1:alias} from ${2:"module-name"};'
-     'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
-
+  'importAll':
+    'prefix': 'imp*'
+    'body': 'import * as ${1:alias} from ${2:"module-name"};'
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
   'exportFunction':
     'prefix': 'exf'
     'body': 'export function ${1:functionName} () {\n\t\n};\n'
     'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
-
 
   'exportDefaultFunction':
     'prefix': 'exdf'
@@ -40,12 +38,12 @@
   'exportClass':
     'prefix': 'exc'
     'body': 'export default class ${1:className} () {\n\t\n};\n'
-      'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
   'exportClassExtends':
     'prefix': 'exec'
     'body': 'export default class ${1:className} extends ${2:baseClass} () {\n\t\n};\n'
-      'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
   'constructor':
     'prefix': 'con'
