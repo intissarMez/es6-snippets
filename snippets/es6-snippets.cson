@@ -3,89 +3,109 @@
   'import':
     'prefix': 'imp'
     'body': 'import $1 from ${2:"module-name"};'
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
   'importAs':
     'prefix': 'impas'
     'body': 'import ${1:name} as ${2:alias} from ${3:"module-name"};'
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
   'importMember':
-   'prefix': 'impm'
-   'body': 'import {${1:member}} from ${2:"module-name"};'
+    'prefix': 'impm'
+    'body': 'import {${1:member}} from ${2:"module-name"};'
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
   'importMemberAsAlias':
-   'prefix': 'impmas'
-   'body': 'import {${1:member} as ${2:alias}} from ${3:"module-name"};'
+    'prefix': 'impmas'
+    'body': 'import {${1:member} as ${2:alias}} from ${3:"module-name"};'
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
-   'importAll':
-     'prefix': 'imp*'
-     'body': 'import * as ${1:alias} from ${2:"module-name"};'
-
+  'importAll':
+    'prefix': 'imp*'
+    'body': 'import * as ${1:alias} from ${2:"module-name"};'
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
   'exportFunction':
     'prefix': 'exf'
     'body': 'export function ${1:functionName} () {\n\t\n};\n'
-
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
   'exportDefaultFunction':
     'prefix': 'exdf'
     'body': 'export default function ${1:functionName} () {\n\t\n};\n'
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
   'exportClass':
     'prefix': 'exc'
     'body': 'export default class ${1:className} () {\n\t\n};\n'
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
   'exportClassExtends':
     'prefix': 'exec'
     'body': 'export default class ${1:className} extends ${2:baseClass} () {\n\t\n};\n'
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
   'constructor':
     'prefix': 'con'
     'body': 'constructor (${1:params}) {\n\t\n};\n'
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
   'method':
     'prefix': 'meth'
     'body': '${1:methodName} (${2:params}) {\n\t\n};\n'
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
   'get':
     'prefix': 'get'
     'body': 'get ${1:prop}() {\n\treturn ;\n}'
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
   'set':
     'prefix': 'set'
     'body': 'set ${1:prop}(${2:value}) {\n\t\n}'
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
   'namedFunction':
     'prefix': 'nfn'
     'body': 'const ${1:functionName} = (${2:params}) => {\n\t\n}'
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
   'arrowFunctionOneParam':
     'prefix': 'arrp'
     'body': '${1:param} => {\n\t\n}'
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
   'arrowFunctionParams':
     'prefix': 'arrps'
     'body': '(${1:params}) => {\n\t\n}'
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
   'arrowFunctionNoParams':
     'prefix': 'arr'
     'body': '() => {\n\t\n}'
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
   'setTimeout':
     'prefix': 'st'
     'body': 'setTimeout(() => {\n\t\n}, ${1:delay});'
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
   'setInterval':
     'prefix': 'si'
     'body': 'setInterval(() => {\n\t\n}, ${1:delay});'
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
   'forOf':
     'prefix': 'foro'
     'body': 'for(let ${1:value} of ${2:iterable}) {\n\t\n}'
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
   'forIn':
     'prefix': 'fori'
     'body': 'for(let ${1:prop} in ${2:obj}) {\n\t\n}'
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
 
   'generator':
     'prefix': 'gen'
     'body': 'function* ${1:functionName} () {\n\t yield \n\t\n};\n'
+    'leftLabelHTML': '<span style="color:#f7df1e">ES6</span>'
